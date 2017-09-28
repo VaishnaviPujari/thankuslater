@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="newcss/shrink.css" media="all"><!-- Shrink Navbar -->
+
+<style type="text/css">
+  video { 
+    position: absolute;
+    overflow: scroll;
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+@media screen and (max-width: 500px) { 
+  div{width:70%;} 
+}
+@media screen and (max-device-width: 800px) {
+  html { background: url(https://thenewcode.com/assets/images/polina.jpg) #000 no-repeat center center fixed; }
+  #bgvid { display: none; }
+
+  .fontstyle{
+    style="color:white; font-size:30px;"
+  }
+}
+</style>
+
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top  newbg my-nav">
+         
+ <center><a class="logo" href="#"><img src="logo.png" alt="" /></a></center>
+         
+         
+  <div class="container" style=" margin: 0px 0px 0px 0px;">
+    <!-- Brand and toggle get grouped for better mobile display --> 
+
+  
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+     
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" style="background:#2C3E50 px;" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav navbar-right">
+					<li><a style="color: #D4AF37;" href="#about">Auroma Cusions</a></li>
+			        <li><a style="color: #D4AF37;" href="work.html">Ouer Story</a></li>
+			        <li><a style="color: #D4AF37;" href="blog.html">End Us Here</a></li>
+			        <li><a style="color: #D4AF37;" href="#client">One Click Away</a></li>
+			        <li><a style="color: #D4AF37;" href="#contact">Contact</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div>
+  
+</nav>
+<!-- Video div -->
+
+
+<div id="fh5co-menus" style="margin-top:250px; " data-section="video"> 
+<section data-section="Vedio" class="home-section color-dark ">
+<div class="container">
+  <video poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline autoplay muted loop>
+  
+<source src="spa.mp4" type="video/mp4">
+</video>
+
+  <center><h1 class="to-animate boldstyle animated"></h1>
+
+  <div  style=" margin-top:150px;color:#fff;font-size:30px;text-shadow: 2px 2px #000; height:90px; width:800px;">The older we get, the better we start connecting  <br>with our bodies and understanding that the mind, <br>body and soul are one and need to be healed together.</div></center>
+          
+</div>
+</section></div>
+<div>
+  
+</div>
+
+
+<div style="height:1200px"></div>
+
+<script type="text/javascript">
+$(window).scroll(function(){
+    var wscroll = $(this).scrollTop();
+    if(wscroll > 100){
+     $(".navbar").addClass("shrink-nav");
+      $(".logo").addClass("shrink-logo");
+    }
+    else{
+      $(".navbar").removeClass("shrink-nav");
+      $(".logo").removeClass("shrink-logo");
+    }
+  });
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
+.navbar-brand{
+  padding-top:0px !important;
+  padding-bottom:0px !important;
+}
+.navbar{
+  font-size:18px;
+  font-family:'Cinzel Decorative', cursive;  
+  font-weight:500;
+  height: 140px;
+    padding-top: 10px;
+	padding-bottom: 10px;
+	transition:all ease .8s;
+}
+.navbar-default .navbar-nav>li>a{
+   color:#BD9E56!important;
+}
+.dropdown-menu > li > a {
+   color:#BD9E56 !important;
+}
+.navbar-default .navbar-nav>li>a:hover{
+   color:#fff !important;
+    
+}
+.shrink-nav {
+	padding-top: 2px !important; /*changeable*/
+	padding-bottom: 0px !important; /*changeable*/
+  height: 90px;
+  
+
+}
+.logo img{
+  margin-top:5px; 
+  width:100px !important;/*changeable*/ 
+  transition:width ease-in-out .7s;
+
+}
+.shrink-logo img {
+  transition:width ease-in-out .7s;
+	width:60px !important;/*changeable*/ 
+  height:20;
+
+}
+
+@media(max-width:767px){
+  .logo img{
+  width:100px !important;/*changeable*/ 
+   height:70;
+}
+  .shrink-logo img {
+     margin-top:5px; 
+	width:60px !important;/*changeable*/ 
+   height:20;
+}
+
+
+}
+.newbg {
+
+	border-bottom-color:rgba(189,158,86, 0.8);   
+    box-shadow:2px 2px 2px rgba(189,158,86, 0.5); 
+       opacity: 0.8;
+        background: url('bgimage.png') repeat!important;;
+       
+}
+ul.li.a {
+ color:#BD9E56;
+
+}
